@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.bustracker.afterParent">
+
+    <Button
+        android:id="@+id/bus_track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:onClick="fun5"
+        android:text="Track Bus" />
+
+    <Button
+        android:id="@+id/call_driver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bus_track"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="Call Driver" />
+
+    <Button
+        android:id="@+id/log_out_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/call_driver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="Log Out" />
+
+</android.widget.RelativeLayout>
